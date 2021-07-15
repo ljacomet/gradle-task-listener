@@ -1,0 +1,7 @@
+:url-repo: https://github.com/ljacomet/gradle-task-listener
+:url-repo-file: {url-repo}/blob/main
+
+This is a Gradle sample repository that shows how to replace some usages of `BuildListener.buildFinished` with a `BuildService`.
+It allows a build to be configuration cache compatible as the first method is not supported in that context.
+
+See {url-repo-file}/build-logic/src/main/kotlin/org.test.task-listener.gradle.kts[precompiled script plugin] for details.
