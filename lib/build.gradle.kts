@@ -1,5 +1,6 @@
 plugins {
     `java-library`
+    id("org.test.task-listener")
 }
 
 repositories {
